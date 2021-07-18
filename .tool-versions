@@ -1,5 +1,4 @@
-nodejs latest
-yarn latest
-nodejs latest
-ruby latest
-rails latest
+nodejs 16.4.2
+yarn 1.22.10
+erlang 23.3
+elixir 1.11.4-otp-23
