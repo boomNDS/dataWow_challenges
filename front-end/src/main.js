@@ -1,3 +1,4 @@
+import './plugins/bootstrap-vue'
 import '@babel/polyfill'
 import 'mutationobserver-shim'
 import { createApp } from 'vue'

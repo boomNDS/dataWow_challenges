@@ -8802,6 +8802,11 @@ vue-cli-plugin-bootstrap-vue@~0.7.0:
   resolved "https://registry.nlark.com/vue-cli-plugin-bootstrap-vue/download/vue-cli-plugin-bootstrap-vue-0.7.0.tgz#b44ed7180e59aca2846e981fc67f59d7c77298e3"
   integrity sha1-tE7XGA5ZrKKEbpgfxn9Z18dymOM=
 
+vue-cli-plugin-bootstrap@~0.4.0:
+  version "0.4.0"
+  resolved "https://registry.npm.taobao.org/vue-cli-plugin-bootstrap/download/vue-cli-plugin-bootstrap-0.4.0.tgz#bb4af09ea846afb7df6e52fb588a8b08485aa5a1"
+  integrity sha1-u0rwnqhGr7ffblL7WIqLCEhapaE=
+
 vue-eslint-parser@^7.8.0:
   version "7.8.0"
   resolved "https://registry.nlark.com/vue-eslint-parser/download/vue-eslint-parser-7.8.0.tgz?cache=0&sync_timestamp=1625567310418&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-eslint-parser%2Fdownload%2Fvue-eslint-parser-7.8.0.tgz#43850bf856c9a69d62c0e12769609c338423684b"
