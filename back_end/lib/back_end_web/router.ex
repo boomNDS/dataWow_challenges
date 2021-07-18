@@ -2,11 +2,13 @@ defmodule BackEndWeb.Router do
   use BackEndWeb, :router
 
   pipeline :api do
-    plug :accepts, ["json"]
+    plug(:accepts, ["json"])
   end
 
-  scope "/api", BackEndWeb do
-    pipe_through :api
+  scope "/challenges/1", BackEndWeb do
+    pipe_through(:api)
+
+    get("/", CategoriesController, :list)
   end
 
   # Enables LiveDashboard only for development
@@ -20,8 +22,8 @@ defmodule BackEndWeb.Router do
     import Phoenix.LiveDashboard.Router
 
     scope "/" do
-      pipe_through [:fetch_session, :protect_from_forgery]
-      live_dashboard "/dashboard", metrics: BackEndWeb.Telemetry
+      pipe_through([:fetch_session, :protect_from_forgery])
+      live_dashboard("/dashboard", metrics: BackEndWeb.Telemetry)
     end
   end
 end
